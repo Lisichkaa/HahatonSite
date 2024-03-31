@@ -115,7 +115,7 @@ const clocks_end = 10;
 const meet_rooms = "20 этаж meet room 1";
 const meet_rooms2 = "17 этаж meet room 1";
 
-const apiUrl = `http://localhost:5000/api/meetingRoomBooking?data=${date}`;
+const apiUrl = `http://localhost:5000/api/meetingRoomBooking/GetBookingsByData?data=${date}`;
 console.log(apiUrl);
   
   fetch(apiUrl)
